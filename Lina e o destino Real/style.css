@@ -1,0 +1,52 @@
+:root{
+  --cor-fundo: #240013 ;
+  --cor-principal: #240013 ;
+  --cor-secundaria: #4e042d; 
+  --cor-destaque: #fd2b9e;
+  --cor-texto: #ffffff;
+
+}
+
+body {
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: large;
+  font-weight: 100;
+}
+
+.caixa-principal{
+  background-color: var(--cor-principal);
+  width: 95%;
+  max-width: 800px;
+  text-align: center;
+  padding: 50px;
+  font-size: large;
+  font-weight: 100;
+}
+
+h1{
+  color: var(--cor-destaque);
+}
+
+button {
+  background-color: var(--cor-secundaria);
+  color: var(--cor-texto);
+  border: none;
+  border-radius: 35px;
+  padding: 25px;
+  transition: background-color 0.3s;
+  font-size: large;
+  font-weight: 100;
+  s
+}
+
+button:hover{
+  background-color: var(--cor-destaque);
+  color: var(--cor-principal);
+  font-size: large;
+  font-weight: 100;
+}
